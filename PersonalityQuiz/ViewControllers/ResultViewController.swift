@@ -20,7 +20,7 @@ class ResultViewController: UIViewController {
         identifyAnimals()
     }
     
-    func identifyAnimals() {
+   private func identifyAnimals() {
         
         let frequencyOfAnswer = answersArray.reduce(into: [:]) { counts, answer in
             counts[answer.animal, default: 0] += 1

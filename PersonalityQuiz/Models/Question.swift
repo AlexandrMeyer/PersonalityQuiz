@@ -12,7 +12,6 @@ struct Question {
     let type: ResponseType
     let answers: [Answer]
     
-    
     static func getQuestion() -> [Question] {
         [
             Question(
